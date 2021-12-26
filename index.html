@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <title>CV Anna Romantsova</title>
+</head>
+<body>
+<div class="wrapper">
+  <header class="header">
+    <div class="intro-wrapper">
+      <div class="name-box">
+        <img src="img/me.jpg" alt="photo">
+        <h1>Anna Romantsova</h1>
+        <p>Teacher, front-end developer</p>
+      </div>
+      <ul class="info-box">
+        <li class="info-item">
+          <img src="img/icons/mail.png" alt="mail icon" class="icon">
+          <p>ann_998@mail.ru</p>
+        </li>
+        <li class="info-item">
+          <img src="img/icons/tg.png" alt="telegram icon" class="icon">
+          <p>anna_html</p>
+        </li>
+        <li class="info-item">
+          <img src="img/icons/map.png" alt="map icon" class="icon">
+          <p>Crimea, Simferopol</p>
+        </li>
+      </ul>
+    </div>
+    <nav>
+      <ul class="ul-list">
+        <li><a href="#about">About me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#code">Code example</a></li>
+        <li><a href="#web">Web-dev experience</a></li>
+        <li><a href="#lang">Languages</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="about">
+      <h2 id="about">About me</h2>
+      <p class="about-text">I am a computer science teacher in professional education for students for 4 years. Now i am
+        studying HTML, CSS and JS
+        on my own for the last year.
+        My dream is to change the type of activity and engage in Front-end development. I hope that I will succeed. I am very
+        interested in trying myself as a developer.
+        I have experience in website layout. I am hardworking, I can
+        devote a lot of time to what interests me.</p>
+    </section>
+    <section class="edu">
+      <div class="wrapper-edu"> 
+      <div class="education-wrapper">
+        <h2 id="education">Education</h2>
+        <ul class="edu-list">
+          <li>Master's and Bachelor's degree in Applied Mathematics Crimean Federal Vernadsky University, Simferopol, Crimea,
+          graduation year 2021 and 2019.</li>
+          <li>Online course on Stepik “Web accessibility in e-learning”, 2020 <a class="link-task" href="https://stepik.org/cert/818899">view the certificate</a></li>
+          <li>Online course<a class="link-task" href="https://ru.code-basics.com">ru.code-basics</a> language HTML</li>
+          <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress).</li>
+        </ul>
+      </div>
+      <img src="img/NewYear/1.png" alt="icon01" class="icons-main">
+    </div>
+    </section>
+    <section class="skiils">
+      <h2 id="skills">Skills</h2>
+      <div class="my-skills">
+        <div class="stat-item__icon stat-item__icon--01"><i class="fa fa-html5 fa-2x" aria-hidden="true"></i></div>
+        <p class="stat-item_text">
+          <span>HTML</span>
+        </p>
+        <div class="stat-item__icon stat-item__icon--01"><i class="fa fa-css3 fa-2x" aria-hidden="true"></i></div>
+        <p class="stat-item_text">
+          <span>CSS</span>
+        </p>
+        <div class="stat-item__icon stat-item__icon--01"><i class="fa fa-picture-o fa-2x" aria-hidden="true"></i></div>
+        <p class="stat-item_text">
+          <span>Figma</span>
+        </p>
+        <div class="stat-item__icon stat-item__icon--01"><i class="fa fa-code fa-2x" aria-hidden="true"></i></div>
+        <p class="stat-item_text">
+          <span>VS Code</span>
+        </p>
+        <div class="stat-item__icon stat-item__icon--01"><i class="fa fa-camera fa-2x" aria-hidden="true"></i></div>
+        <p class="stat-item_text">
+          <span>Photoshop</span>
+        </p>
+      </div>
+    </section>
+    <section class="code">
+      <h2 id="code">Code example</h2>
+      <p class="task-name">Thinkful - Logic Drills: Traffic light <a
+       href="https://www.codewars.com/kata/58649884a1659ed6cb000072" class="link-task">view task</a></p>
+          <div class="code-wrapper"> 
+            <img src="img/NewYear/3.png" alt="icon02" class="icons-main">
+            <pre>
+          <code class="code-tag">
+            <span class="blue">function</span> <span class="orange">updateLight</span>(current){
+            <span class="blue">const</span> <span class="orange">arrayLights</span> = [<span class="yellow">"green", "yellow", "red"</span>];
+            <span class="blue">if</span> (current === arrayLights[<span class="yellow">0</span>]) <span class="blue">return</span> arrayLights[<span class="yellow">1</span>]
+            <span class="blue">if</span> (current === arrayLights[<span class="yellow">1</span>]) <span class="blue">return</span> arrayLights[<span class="yellow">2</span>]
+            <span class="blue"> if</span> (current === arrayLights[<span class="yellow">2</span>]) <span class="blue">return</span> arrayLights[<span class="yellow">0</span>]}
+          </code> 
+        </pre>
+      </div>
+    </section>
+    <section class="web-dev">
+    <div class="flex-wrapper">
+      <div class="work-wrapper">
+        <h2 id="web">Web-dev experience</h2>
+        <div class="my-works">
+          <div class="portfolio-item">
+            <img src="img/work2.png" class="portfolio-img" alt="car service web site">
+            <p class="portfolio-item_title">Car service website</p>
+            <a class="portfolio-item_btn" href="https://skgarage.ru/" target="_blank">
+              <span class="portfolio-item_btn-text">View</span>
+            </a>
+          </div>
+          <div class="portfolio-item">
+            <img src="img/work1.png" class="portfolio-img" alt="flowers web-site">
+            <p class="portfolio-item_title">Flower delivery website</p>
+            <a class="portfolio-item_btn" href="https://annaromantsova.github.io/flowers-simf-/" target="_blank">
+              <span class="portfolio-item_btn-text">View</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section class="lang">
+      <div class="lang-wrapper">
+        <h2 id="lang">Languages</h2>
+        <ul class="lang-list">
+          <li>English (B1+)</li>
+          <li>Russian (native)</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-wrapper">
+      <a href="https://github.com/anmaiden" class="link-footer">github</a>
+      <a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="logo" class="logo-rss"></a>
+      <p>2022</p>
+    </div>
+  </footer>
+</div>
+</body>
+</html>
